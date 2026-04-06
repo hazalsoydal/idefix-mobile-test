@@ -1,17 +1,14 @@
 # Idefix Mobile Automation — POM Structure
 
-## Prerequisites
-
-```bash
 # 1. Install Appium globally
 npm install -g appium
 
 # 2. Install UiAutomator2 driver
-appium driver install uiautomator2
+Appium driver install uiautomator2
 
 # 3. Install Python dependencies
 pip install Appium-Python-Client pytest
-```
+
 
 ## Project Structure
 
@@ -37,9 +34,8 @@ cd idefix_automation
 pytest tests/test_login.py -v -s
 ```
 
-## ⚠️ Important: Fix the Locators with Appium Inspector
+## Important: Fix the Locators with Appium Inspector
 
-Some locators are best-guess XPaths. You **must** verify them using Appium Inspector.
 
 ### How to use Appium Inspector
 
